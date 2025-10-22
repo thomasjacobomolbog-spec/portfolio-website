@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <h1 class="logo">MyPortfolio</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero split">
+  <div class="hero-content">
+    <h3>Hello, I'm <span>HAKOBO</span></h3>
+    <h3>And I'm <span class="multiple-text">Fontend Developer</span></h3>
+    <p>A passionate web developer creating modern and responsive designs.</p>
+    <a href="https://www.tiktok.com/@wee.kedd"><i class='bx bxl-tiktok'></i></a>
+    <a href="https://github.com/thomasjacobomolbog-spec"><i class='bx bxl-github'></i></a>
+    <a href="https://www.facebook.com/jacob.molbog"><i class='bx bxl-facebook'></i></a>
+    <a href="https://www.instagram.com/ha.cob.tj/"><i class='bx bxl-instagram' ></i></a>   
+    <a href="#projects" class="btn">View My Work</a>
+  </div>
+    <div class="hero-image">
+    <img src="images/photo 2.jpg" alt="HAKOBO portrait">
+  </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a front-end developer skilled in HTML, CSS, and JavaScript. I love
+      building clean, beautiful, and functional web experiences.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="images/porf.jpg" alt="" />
+        <h3>Portfolio Website</h3>
+        <p>A responsive portfolio site made with HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project-card">
+        <img src="" alt="" />
+        <h3>Landing Page</h3>
+        <p>A modern landing page built for a business startup.</p>
+      </div>
+      <div class="project-card">
+        <img src="" alt="" />
+        <h3>Weather App</h3>
+        <p>Simple app that shows real-time weather using API data.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 HAKOBO | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
